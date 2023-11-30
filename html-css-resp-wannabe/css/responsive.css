@@ -1,0 +1,10 @@
+/******SOTTO I 768 PX*/
+
+@media  screen and (max-width:768px) {
+    .container{
+         width: 100%; 
+    }
+    
+}
+
+/******SOTTO I 576 PX*/
