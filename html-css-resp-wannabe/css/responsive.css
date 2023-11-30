@@ -4,7 +4,26 @@
     .container{
          width: 100%; 
     }
-    
 }
 
 /******SOTTO I 576 PX*/
+
+@media  screen and (max-width:576px) {
+    .row{
+         flex-direction: column;
+         align-items: center;
+         gap: 50px;
+    }
+
+    .lessons .col{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+}
