@@ -1,10 +1,9 @@
 /******SOTTO I 768 PX*/
-
-@media  screen and (max-width:768px) {
-    .container{
-         width: 100%; 
-    }
+.container{
+    width: 100%;
+    max-width: 1140px;
 }
+
 
 /******SOTTO I 576 PX*/
 
@@ -27,6 +26,10 @@
     padding-bottom: 3rem;
     margin-top: 0px;
 }
+
+/* .container{
+    width: 100%;
+} */
 
 @media  screen and (max-width:576px) {
     .row{
